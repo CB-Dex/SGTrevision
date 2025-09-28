@@ -1,0 +1,147 @@
+{
+  "topics": [
+    { "id": 1, "title": "Non-Fatal Offences", "slug": "non-fatal-offences" },
+    { "id": 2, "title": "Theft & Related", "slug": "theft-related" },
+    { "id": 3, "title": "Criminal Damage", "slug": "criminal-damage" }
+  ],
+  "subtopics": [
+    { "id": 1, "topic_id": 1, "title": "Common Assault", "slug": "common-assault" },
+    { "id": 2, "topic_id": 1, "title": "ABH & Wounding", "slug": "abh-wounding" },
+    { "id": 3, "topic_id": 2, "title": "Theft Act Basics", "slug": "theft-act-basics" },
+    { "id": 4, "topic_id": 2, "title": "Handling & Fraud", "slug": "handling-fraud" },
+    { "id": 5, "topic_id": 3, "title": "Simple Damage", "slug": "simple-damage" },
+    { "id": 6, "topic_id": 3, "title": "Aggravated Damage", "slug": "aggravated-damage" }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "subtopic_id": 1,
+      "question": "Which element best describes the actus reus of common assault?",
+      "answer": "Causing another to apprehend immediate unlawful violence",
+      "reference": "Blackstone's, Crime 2025, 1.16.2 p.219",
+      "subtitle": "Assault essentials",
+      "tags": ["actus reus", "assault"],
+      "explanation": "Common assault requires an act causing apprehension of immediate unlawful force; no physical contact is needed."
+    },
+    {
+      "id": 2,
+      "subtopic_id": 1,
+      "question": "What level of harm is required for a charge under s.39 Criminal Justice Act 1988?",
+      "answer": "No injury is necessary; fear alone suffices",
+      "reference": "Blackstone's, Crime 2025, 1.16.4 p.221",
+      "subtitle": "CJA 1988 scope",
+      "tags": ["CJA 1988", "non-fatal"]
+    },
+    {
+      "id": 3,
+      "subtopic_id": 1,
+      "question": "Which defence can lawfully justify the use of force in a common assault scenario?",
+      "answer": "Self-defence if force is reasonable and necessary",
+      "reference": "Blackstone's, Crime 2025, 1.18.1 p.227",
+      "subtitle": "Lawful force",
+      "tags": ["defences", "self-defence"]
+    },
+    {
+      "id": 4,
+      "subtopic_id": 2,
+      "question": "Under s.47 Offences Against the Person Act 1861, what additional element elevates assault to ABH?",
+      "answer": "Occasioning actual bodily harm",
+      "reference": "Blackstone's, Crime 2025, 1.19.5 p.234",
+      "subtitle": "ABH elements",
+      "tags": ["ABH", "OAPA"],
+      "explanation": "ABH requires proof that the assault occasioned injuries more than trivial but not necessarily permanent."
+    },
+    {
+      "id": 5,
+      "subtopic_id": 2,
+      "question": "For s.20 OAPA 1861, what mens rea must the prosecution prove?",
+      "answer": "Intention or recklessness as to inflicting some harm",
+      "reference": "Blackstone's, Crime 2025, 1.19.9 p.236",
+      "subtitle": "Wounding mens rea",
+      "tags": ["OAPA", "mens rea"]
+    },
+    {
+      "id": 6,
+      "subtopic_id": 2,
+      "question": "Which injury best illustrates 'grievous bodily harm' for s.18 OAPA?",
+      "answer": "Serious injury causing long-term impairment",
+      "reference": "Blackstone's, Crime 2025, 1.19.11 p.237",
+      "subtitle": "GBH threshold",
+      "tags": ["GBH", "serious harm"]
+    },
+    {
+      "id": 7,
+      "subtopic_id": 3,
+      "question": "What is the definition of 'appropriation' under s.3 Theft Act 1968?",
+      "answer": "Any assumption of the rights of the owner",
+      "reference": "Blackstone's, Crime 2025, 2.4.2 p.311",
+      "subtitle": "Appropriation defined",
+      "tags": ["theft act", "appropriation"],
+      "explanation": "Assuming any of the owner's rights is sufficient; no need for all rights to be taken."
+    },
+    {
+      "id": 8,
+      "subtopic_id": 3,
+      "question": "For theft, which combination completes the actus reus?",
+      "answer": "Appropriation of property belonging to another",
+      "reference": "Blackstone's, Crime 2025, 2.4.5 p.313",
+      "subtitle": "Actus reus trio",
+      "tags": ["property", "actus reus"]
+    },
+    {
+      "id": 9,
+      "subtopic_id": 4,
+      "question": "Handling stolen goods requires the defendant to know or believe what?",
+      "answer": "The goods are stolen at the time of handling",
+      "reference": "Blackstone's, Crime 2025, 2.12.3 p.341",
+      "subtitle": "Mental element",
+      "tags": ["handling", "mens rea"]
+    },
+    {
+      "id": 10,
+      "subtopic_id": 4,
+      "question": "Under the Fraud Act 2006, dishonesty is assessed using which test?",
+      "answer": "The Ivey objective standards of ordinary decent people",
+      "reference": "Blackstone's, Crime 2025, 2.18.1 p.365",
+      "subtitle": "Dishonesty test",
+      "tags": ["fraud", "dishonesty"]
+    },
+    {
+      "id": 11,
+      "subtopic_id": 5,
+      "question": "What is required for the mens rea of simple criminal damage?",
+      "answer": "Intention or recklessness as to damaging property",
+      "reference": "Blackstone's, Crime 2025, 3.2.4 p.401",
+      "subtitle": "Mens rea focus",
+      "tags": ["criminal damage", "mens rea"]
+    },
+    {
+      "id": 12,
+      "subtopic_id": 5,
+      "question": "A defendant breaks a window to rescue a child from fire. Which defence is most relevant?",
+      "answer": "Lawful excuse under s.5(2)(b) Criminal Damage Act",
+      "reference": "Blackstone's, Crime 2025, 3.3.2 p.407",
+      "subtitle": "Lawful excuse",
+      "tags": ["defences", "necessity"]
+    },
+    {
+      "id": 13,
+      "subtopic_id": 6,
+      "question": "Aggravated criminal damage under s.1(2) CDA requires proof of what additional element?",
+      "answer": "Intention or recklessness as to endangering life",
+      "reference": "Blackstone's, Crime 2025, 3.4.1 p.413",
+      "subtitle": "Endangering life",
+      "tags": ["aggravated", "endanger life"],
+      "explanation": "The prosecution must show the defendant intended or was reckless about life being endangered by the damage."
+    },
+    {
+      "id": 14,
+      "subtopic_id": 6,
+      "question": "Which property type can be the subject of criminal damage?",
+      "answer": "Tangible property including land and buildings",
+      "reference": "Blackstone's, Crime 2025, 3.2.1 p.399",
+      "subtitle": "Property scope",
+      "tags": ["property", "CDA"]
+    }
+  ]
+}

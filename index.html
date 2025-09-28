@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGT Revision Toolkit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <div class="brand">
+                <span class="brand-badge" aria-hidden="true"></span>
+                <div>
+                    <h1>SGT Revision Toolkit</h1>
+                    <p class="tagline">Complete Blackstone's chapter map with supporting study cards</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="topic-selector">
+                    <label for="topic-select">Topics</label>
+                    <select id="topic-select" aria-label="Choose a topic">
+                        <option value="all">All topics</option>
+                    </select>
+                </div>
+                <button id="theme-toggle" class="button secondary" aria-label="Toggle colour theme"></button>
+            </div>
+        </div>
+        <div id="topic-preview" class="topic-preview" aria-live="polite"></div>
+    </header>
+
+    <nav class="primary-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#browse">Browse</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <main id="app" class="main" role="main" tabindex="-1">
+        <section class="loading" aria-live="polite">
+            <p>Loading study cards…</p>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>References draw on Blackstone's Police Sergeants' &amp; Inspectors' Manuals published by Wildy &amp; Sons.</p>
+    </footer>
+
+    <noscript>
+        <div class="noscript">This site requires JavaScript to load study content. Please enable JavaScript in your browser.</div>
+    </noscript>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

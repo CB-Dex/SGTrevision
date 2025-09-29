@@ -1,12 +1,13 @@
 (function () {
   const THEME_KEY = 'sgt-theme';
 
+  // Static catalogue describing the three volumes and their chapters
   const blackstonesCatalogue = [
     {
       title: 'Crime',
       slug: 'crime',
       summary:
-        'Sixteen chapters covering foundational principles and major offences within the Blackstone\'s crime volume.',
+        "Sixteen chapters covering foundational principles and major offences within the Blackstone's crime volume.",
       chapters: [
         'Mens Rea (State of Mind)',
         'Actus Reus (Criminal Conduct)',
@@ -80,11 +81,7 @@
     route: window.location.hash || '#home',
     theme: 'light',
     activeTopic: 'all',
-    search: {
-      term: '',
-      topic: 'all',
-      tag: 'all'
-    },
+    search: { term: '', topic: 'all', tag: 'all' },
     catalogueMap: new Map()
   };
 
@@ -168,21 +165,21 @@
       subtopicsByTopic.set(subtopic.topic_id, list);
     });
 
-    state.indexes = {
-      topicMap,
-      topicBySlug,
-      subtopicMap,
-      subtopicsByTopic
-    };
+    state.indexes = { topicMap, topicBySlug, subtopicMap, subtopicsByTopic };
   }
 
   function populateTopicSelect() {
     const select = document.getElementById('topic-select');
     if (!select) return;
+
+    // Prefer live topics from data.json; fall back to static catalogue if needed
+    const source = state.data?.topics?.length ? state.data.topics : blackstonesCatalogue;
     const options = ['<option value="all">All topics</option>'].concat(
-      blackstonesCatalogue.map(
-        (topic) => `<option value="${topic.slug}">${escapeHtml(topic.title)}</option>`
-      )
+      source.map((topic) => {
+        const slug = topic.slug || topic.slug;
+        const title = topic.title || topic.title;
+        return `<option value="${slug}">${escapeHtml(title)}</option>`;
+      })
     );
     select.innerHTML = options.join('');
     select.value = state.activeTopic;
@@ -228,32 +225,28 @@
       const slug = state.route.replace('#topic/', '');
       state.activeTopic = slug;
       const select = document.getElementById('topic-select');
-      if (select) {
-        select.value = slug;
-      }
+      if (select) select.value = slug;
       renderTopicPreview();
     }
 
-    if (!state.data) {
-      return;
-    }
+    if (!state.data) return;
 
-    const main = document.getElementById('app');
-    main.innerHTML = '';
+    const mainEl = document.getElementById('app');
+    mainEl.innerHTML = '';
 
     if (state.route === '#home') {
-      renderHome(main);
+      renderHome(mainEl);
     } else if (state.route === '#browse') {
-      renderBrowse(main);
+      renderBrowse(mainEl);
     } else if (state.route.startsWith('#topic/')) {
-      renderTopic(main);
+      renderTopic(mainEl);
     } else if (state.route === '#about') {
-      renderAbout(main);
+      renderAbout(mainEl);
     } else {
-      renderNotFound(main);
+      renderNotFound(mainEl);
     }
 
-    setTimeout(() => main.focus(), 0);
+    setTimeout(() => mainEl.focus(), 0);
   }
 
   function renderHome(container) {
@@ -301,9 +294,10 @@
           <label class="sr-only" for="topic-filter">Filter by topic</label>
           <select id="topic-filter" aria-label="Filter by topic">
             <option value="all">All topics</option>
-            ${blackstonesCatalogue
+            ${state.data.topics
               .map(
-                (topic) => `<option value="${topic.slug}" ${state.search.topic === topic.slug ? 'selected' : ''}>${escapeHtml(topic.title)}</option>`
+                (topic) =>
+                  `<option value="${topic.slug}" ${state.search.topic === topic.slug ? 'selected' : ''}>${escapeHtml(topic.title)}</option>`
               )
               .join('')}
           </select>
@@ -328,15 +322,11 @@
       updateBrowseResults();
     }, 200);
 
-    searchInput?.addEventListener('input', (event) => {
-      debouncedSearch(event.target.value);
-    });
-
+    searchInput?.addEventListener('input', (event) => debouncedSearch(event.target.value));
     topicFilter?.addEventListener('change', (event) => {
       state.search.topic = event.target.value;
       updateBrowseResults();
     });
-
     tagFilter?.addEventListener('change', (event) => {
       state.search.tag = event.target.value;
       updateBrowseResults();
@@ -397,7 +387,9 @@
         <h3>Chapter breakdown</h3>
         <ul class="chapter-list">${subtopics}</ul>
         <h3>Study cards</h3>
-        <div class="card-list">${cards.map((card) => renderCard(card)).join('') || '<p>Cards for this topic are coming soon.</p>'}</div>
+        <div class="card-list">
+          ${cards.map((card) => renderCard(card)).join('') || '<p>Cards for this topic are coming soon.</p>'}
+        </div>
       </section>
     `;
   }
@@ -465,7 +457,7 @@
   function collectTags() {
     const tagSet = new Set();
     state.data.cards.forEach((card) => {
-      card.tags.forEach((tag) => tagSet.add(tag));
+      (card.tags || []).forEach((tag) => tagSet.add(tag));
     });
     return Array.from(tagSet).sort();
   }
@@ -481,9 +473,7 @@
 
   function loadTheme() {
     const stored = localStorage.getItem(THEME_KEY);
-    if (stored) {
-      state.theme = stored;
-    }
+    if (stored) state.theme = stored;
     applyTheme();
   }
 

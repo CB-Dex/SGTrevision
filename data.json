@@ -1,5 +1,58 @@
 {
   "topics": [
+codex/create-static-site-for-police-sergeant-revision-52i62c
+    { "id": 1, "title": "Crime", "slug": "crime" },
+    { "id": 2, "title": "Evidence & Procedure", "slug": "evidence-procedure" },
+    { "id": 3, "title": "General Police Duties", "slug": "general-police-duties" }
+  ],
+  "subtopics": [
+    { "id": 1, "topic_id": 1, "title": "Mens Rea (State of Mind)", "slug": "mens-rea" },
+    { "id": 2, "topic_id": 1, "title": "Actus Reus (Criminal Conduct)", "slug": "actus-reus" },
+    { "id": 3, "topic_id": 1, "title": "Incomplete Offences", "slug": "incomplete-offences" },
+    { "id": 4, "topic_id": 1, "title": "General Defences", "slug": "general-defences" },
+    { "id": 5, "topic_id": 1, "title": "Homicide", "slug": "homicide" },
+    { "id": 6, "topic_id": 1, "title": "Misuse of Drugs", "slug": "misuse-of-drugs" },
+    { "id": 7, "topic_id": 1, "title": "Firearms and Gun Crime", "slug": "firearms" },
+    { "id": 8, "topic_id": 1, "title": "Racially and Religiously Aggravated Offences", "slug": "racially-aggravated" },
+    { "id": 9, "topic_id": 1, "title": "Non-fatal Offences Against the Person", "slug": "non-fatal-offences" },
+    { "id": 10, "topic_id": 1, "title": "Miscellaneous Offences Against the Person and Offences Involving the Deprivation of Liberty", "slug": "misc-offences" },
+    { "id": 11, "topic_id": 1, "title": "Sexual Offences", "slug": "sexual-offences" },
+    { "id": 12, "topic_id": 1, "title": "Child Protection", "slug": "child-protection" },
+    { "id": 13, "topic_id": 1, "title": "Theft and Related Offences", "slug": "theft" },
+    { "id": 14, "topic_id": 1, "title": "Fraud", "slug": "fraud" },
+    { "id": 15, "topic_id": 1, "title": "Criminal Damage", "slug": "criminal-damage" },
+    { "id": 16, "topic_id": 1, "title": "Offences Against the Administration of Justice and Public Interest", "slug": "administration-of-justice" },
+    { "id": 17, "topic_id": 2, "title": "Instituting Criminal Proceedings", "slug": "instituting-proceedings" },
+    { "id": 18, "topic_id": 2, "title": "Release of Person Arrested", "slug": "release-of-person-arrested" },
+    { "id": 19, "topic_id": 2, "title": "Court Procedure and Witnesses", "slug": "court-procedure" },
+    { "id": 20, "topic_id": 2, "title": "Exclusion of Admissible Evidence", "slug": "exclusion-of-evidence" },
+    { "id": 21, "topic_id": 2, "title": "Disclosure of Evidence", "slug": "disclosure-of-evidence" },
+    { "id": 22, "topic_id": 2, "title": "Detention and Treatment of Persons by Police Officers: PACE Code C", "slug": "pace-code-c" },
+    { "id": 23, "topic_id": 2, "title": "Identification: PACE Code D", "slug": "pace-code-d" },
+    { "id": 24, "topic_id": 2, "title": "Interviews: PACE Codes C, E and F", "slug": "pace-codes-c-e-f" },
+    { "id": 25, "topic_id": 3, "title": "Stop and Search", "slug": "stop-and-search" },
+    { "id": 26, "topic_id": 3, "title": "Entry, Search and Seizure", "slug": "entry-search-seizure" },
+    { "id": 27, "topic_id": 3, "title": "Powers of Arrest", "slug": "powers-of-arrest" },
+    { "id": 28, "topic_id": 3, "title": "Protection of People Suffering from Mental Disorders", "slug": "mental-disorder-protection" },
+    { "id": 29, "topic_id": 3, "title": "Offences Relating to Land and Premises", "slug": "land-premises" },
+    { "id": 30, "topic_id": 3, "title": "Licensing and Offences", "slug": "licensing" },
+    { "id": 31, "topic_id": 3, "title": "Protecting Citizens and the Community: Injunctions, Orders, and Police Powers", "slug": "injunctions-orders" },
+    { "id": 32, "topic_id": 3, "title": "Policing Processions, Assemblies and Protests; Offences and Powers", "slug": "processions-protests" },
+    { "id": 33, "topic_id": 3, "title": "Public Order Offences", "slug": "public-order-offences" },
+    { "id": 34, "topic_id": 3, "title": "Sporting Events", "slug": "sporting-events" },
+    { "id": 35, "topic_id": 3, "title": "Domestic Violence and Abuse", "slug": "domestic-violence" },
+    { "id": 36, "topic_id": 3, "title": "Hatred and Harassment Offences", "slug": "hatred-harassment" },
+    { "id": 37, "topic_id": 3, "title": "Offences and Powers Relating to Information and Communications", "slug": "information-communications" },
+    { "id": 38, "topic_id": 3, "title": "Offences Against the Administration of Justice and Public Interest", "slug": "gpd-administration-of-justice" },
+    { "id": 39, "topic_id": 3, "title": "Terrorism and Associated Offences", "slug": "terrorism" },
+    { "id": 40, "topic_id": 3, "title": "Diversity, Equality and Inclusion", "slug": "diversity-inclusion" },
+    { "id": 41, "topic_id": 3, "title": "Complaints and Misconduct", "slug": "complaints-misconduct" },
+    { "id": 42, "topic_id": 3, "title": "Unsatisfactory Performance and Attendance", "slug": "performance-attendance" },
+    { "id": 43, "topic_id": 3, "title": "Road Policing Definitions and Principles", "slug": "road-policing-definitions" },
+    { "id": 44, "topic_id": 3, "title": "Key Police Powers Relating to Road Policing", "slug": "road-policing-powers" },
+    { "id": 45, "topic_id": 3, "title": "Offences Involving Standards of Driving", "slug": "standards-of-driving" },
+    { "id": 46, "topic_id": 3, "title": "Drink, Drugs and Driving", "slug": "drink-drugs-driving" }
+=======
     { "id": 1, "title": "Non-Fatal Offences", "slug": "non-fatal-offences" },
     { "id": 2, "title": "Theft & Related", "slug": "theft-related" },
     { "id": 3, "title": "Criminal Damage", "slug": "criminal-damage" }
@@ -11,16 +64,127 @@
     { "id": 4, "topic_id": 2, "title": "Handling & Fraud", "slug": "handling-fraud" },
     { "id": 5, "topic_id": 3, "title": "Simple Damage", "slug": "simple-damage" },
     { "id": 6, "topic_id": 3, "title": "Aggravated Damage", "slug": "aggravated-damage" }
+main
   ],
   "cards": [
     {
       "id": 1,
       "subtopic_id": 1,
+codex/create-static-site-for-police-sergeant-revision-52i62c
+      "question": "Under the R v G test, what must the prosecution show about the defendant's awareness of risk?",
+      "answer": "That they were aware of the risk and unreasonably went on to take it",
+      "reference": "Blackstone's, Crime 2025, 1.4.3 p.112",
+      "subtitle": "Subjective recklessness",
+      "tags": ["mens rea", "recklessness"],
+      "explanation": "R v G re-established that recklessness requires the defendant to foresee the risk and take it anyway." 
+    },
+    {
+      "id": 2,
+      "subtopic_id": 9,
+
+main
       "question": "Which element best describes the actus reus of common assault?",
       "answer": "Causing another to apprehend immediate unlawful violence",
       "reference": "Blackstone's, Crime 2025, 1.16.2 p.219",
       "subtitle": "Assault essentials",
       "tags": ["actus reus", "assault"],
+codex/create-static-site-for-police-sergeant-revision-52i62c
+      "explanation": "Common assault can be committed without physical contact where the victim fears immediate unlawful force." 
+    },
+    {
+      "id": 3,
+      "subtopic_id": 13,
+      "question": "What is the definition of 'appropriation' under s.3 Theft Act 1968?",
+      "answer": "Any assumption of the rights of the owner",
+      "reference": "Blackstone's, Crime 2025, 2.4.2 p.311",
+      "subtitle": "Appropriation defined",
+      "tags": ["theft", "property"],
+      "explanation": "Assuming any of the owner's rights is sufficient; the defendant need not assume all rights." 
+    },
+    {
+      "id": 4,
+      "subtopic_id": 15,
+      "question": "What mental element is required for basic criminal damage under s.1(1) CDA 1971?",
+      "answer": "Intention or recklessness as to damaging property",
+      "reference": "Blackstone's, Crime 2025, 3.2.4 p.401",
+      "subtitle": "Mens rea focus",
+      "tags": ["criminal damage", "mens rea"]
+    },
+    {
+      "id": 5,
+      "subtopic_id": 17,
+      "question": "Which document usually commences an either-way offence in the magistrates' court?",
+      "answer": "A written charge with requisition",
+      "reference": "Blackstone's, Evidence & Procedure 2025, 4.2.1 p.52",
+      "subtitle": "Starting proceedings",
+      "tags": ["proceedings", "charging"],
+      "explanation": "For most either-way offences the CPS issues a written charge and requisition to bring the defendant before the court." 
+    },
+    {
+      "id": 6,
+      "subtopic_id": 21,
+      "question": "What is the prosecutor's core duty under the CPIA 1996 disclosure regime?",
+      "answer": "To disclose material that might reasonably undermine the prosecution or assist the defence",
+      "reference": "Blackstone's, Evidence & Procedure 2025, 9.3.2 p.132",
+      "subtitle": "Disclosure test",
+      "tags": ["disclosure", "CPIA"]
+    },
+    {
+      "id": 7,
+      "subtopic_id": 22,
+      "question": "Within what maximum period must detainees be generally reviewed under PACE Code C?",
+      "answer": "At least every six hours by the custody officer",
+      "reference": "Blackstone's, Evidence & Procedure 2025, 10.5.1 p.158",
+      "subtitle": "Custody reviews",
+      "tags": ["PACE", "custody"],
+      "explanation": "The custody officer must carry out reviews not more than six hours apart to ensure the detention remains lawful." 
+    },
+    {
+      "id": 8,
+      "subtopic_id": 23,
+      "question": "When must an identification procedure be held under PACE Code D?",
+      "answer": "When the suspect disputes identification and it is practicable and useful",
+      "reference": "Blackstone's, Evidence & Procedure 2025, 11.4.2 p.188",
+      "subtitle": "ID procedures",
+      "tags": ["PACE", "identification"]
+    },
+    {
+      "id": 9,
+      "subtopic_id": 25,
+      "question": "Under s.1 PACE, what threshold must be met before exercising a stop and search for stolen goods?",
+      "answer": "Reasonable grounds for suspicion based on objective factors",
+      "reference": "Blackstone's, General Duties 2025, 1.3.1 p.12",
+      "subtitle": "Stop and search test",
+      "tags": ["PACE", "stop and search"]
+    },
+    {
+      "id": 10,
+      "subtopic_id": 27,
+      "question": "Which criteria must be satisfied for a lawful arrest without warrant under s.24 PACE?",
+      "answer": "Reasonable suspicion plus necessity under the statutory grounds",
+      "reference": "Blackstone's, General Duties 2025, 3.2.4 p.54",
+      "subtitle": "Arrest necessity",
+      "tags": ["arrest", "PACE"],
+      "explanation": "Even with reasonable suspicion, the arresting officer must establish that arrest is necessary for one of the s.24(5) reasons." 
+    },
+    {
+      "id": 11,
+      "subtopic_id": 32,
+      "question": "Which legislation primarily governs imposing conditions on public processions?",
+      "answer": "Public Order Act 1986, section 12",
+      "reference": "Blackstone's, General Duties 2025, 7.1.2 p.118",
+      "subtitle": "Procession powers",
+      "tags": ["public order", "processions"]
+    },
+    {
+      "id": 12,
+      "subtopic_id": 46,
+      "question": "What is the prescribed limit for alcohol in breath for driving in England and Wales?",
+      "answer": "35 microgrammes of alcohol per 100 millilitres of breath",
+      "reference": "Blackstone's, General Duties 2025, 16.4.1 p.268",
+      "subtitle": "Drink drive limit",
+      "tags": ["road policing", "drink driving"]
+=======
       "explanation": "Common assault requires an act causing apprehension of immediate unlawful force; no physical contact is needed."
     },
     {
@@ -142,6 +306,7 @@
       "reference": "Blackstone's, Crime 2025, 3.2.1 p.399",
       "subtitle": "Property scope",
       "tags": ["property", "CDA"]
+main
     }
   ]
 }

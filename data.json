@@ -1,312 +1,1212 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "title": "Crime",
+      "slug": "crime",
+      "summary": "Substantive and inchoate criminal offences along with available defences."
+    },
+    {
+      "id": 2,
+      "title": "Evidence & Procedure",
+      "slug": "evidence-procedure",
+      "summary": "Criminal process from charge through trial preparation, admissibility, and disclosure duties."
+    },
+    {
+      "id": 3,
+      "title": "General Police Duties",
+      "slug": "general-police-duties",
+      "summary": "Operational policing powers, community protection responsibilities, and professional standards."
+    }
+  ],
   "topics": [
-codex/create-static-site-for-police-sergeant-revision-52i62c
-    { "id": 1, "title": "Crime", "slug": "crime" },
-    { "id": 2, "title": "Evidence & Procedure", "slug": "evidence-procedure" },
-    { "id": 3, "title": "General Police Duties", "slug": "general-police-duties" }
-  ],
-  "subtopics": [
-    { "id": 1, "topic_id": 1, "title": "Mens Rea (State of Mind)", "slug": "mens-rea" },
-    { "id": 2, "topic_id": 1, "title": "Actus Reus (Criminal Conduct)", "slug": "actus-reus" },
-    { "id": 3, "topic_id": 1, "title": "Incomplete Offences", "slug": "incomplete-offences" },
-    { "id": 4, "topic_id": 1, "title": "General Defences", "slug": "general-defences" },
-    { "id": 5, "topic_id": 1, "title": "Homicide", "slug": "homicide" },
-    { "id": 6, "topic_id": 1, "title": "Misuse of Drugs", "slug": "misuse-of-drugs" },
-    { "id": 7, "topic_id": 1, "title": "Firearms and Gun Crime", "slug": "firearms" },
-    { "id": 8, "topic_id": 1, "title": "Racially and Religiously Aggravated Offences", "slug": "racially-aggravated" },
-    { "id": 9, "topic_id": 1, "title": "Non-fatal Offences Against the Person", "slug": "non-fatal-offences" },
-    { "id": 10, "topic_id": 1, "title": "Miscellaneous Offences Against the Person and Offences Involving the Deprivation of Liberty", "slug": "misc-offences" },
-    { "id": 11, "topic_id": 1, "title": "Sexual Offences", "slug": "sexual-offences" },
-    { "id": 12, "topic_id": 1, "title": "Child Protection", "slug": "child-protection" },
-    { "id": 13, "topic_id": 1, "title": "Theft and Related Offences", "slug": "theft" },
-    { "id": 14, "topic_id": 1, "title": "Fraud", "slug": "fraud" },
-    { "id": 15, "topic_id": 1, "title": "Criminal Damage", "slug": "criminal-damage" },
-    { "id": 16, "topic_id": 1, "title": "Offences Against the Administration of Justice and Public Interest", "slug": "administration-of-justice" },
-    { "id": 17, "topic_id": 2, "title": "Instituting Criminal Proceedings", "slug": "instituting-proceedings" },
-    { "id": 18, "topic_id": 2, "title": "Release of Person Arrested", "slug": "release-of-person-arrested" },
-    { "id": 19, "topic_id": 2, "title": "Court Procedure and Witnesses", "slug": "court-procedure" },
-    { "id": 20, "topic_id": 2, "title": "Exclusion of Admissible Evidence", "slug": "exclusion-of-evidence" },
-    { "id": 21, "topic_id": 2, "title": "Disclosure of Evidence", "slug": "disclosure-of-evidence" },
-    { "id": 22, "topic_id": 2, "title": "Detention and Treatment of Persons by Police Officers: PACE Code C", "slug": "pace-code-c" },
-    { "id": 23, "topic_id": 2, "title": "Identification: PACE Code D", "slug": "pace-code-d" },
-    { "id": 24, "topic_id": 2, "title": "Interviews: PACE Codes C, E and F", "slug": "pace-codes-c-e-f" },
-    { "id": 25, "topic_id": 3, "title": "Stop and Search", "slug": "stop-and-search" },
-    { "id": 26, "topic_id": 3, "title": "Entry, Search and Seizure", "slug": "entry-search-seizure" },
-    { "id": 27, "topic_id": 3, "title": "Powers of Arrest", "slug": "powers-of-arrest" },
-    { "id": 28, "topic_id": 3, "title": "Protection of People Suffering from Mental Disorders", "slug": "mental-disorder-protection" },
-    { "id": 29, "topic_id": 3, "title": "Offences Relating to Land and Premises", "slug": "land-premises" },
-    { "id": 30, "topic_id": 3, "title": "Licensing and Offences", "slug": "licensing" },
-    { "id": 31, "topic_id": 3, "title": "Protecting Citizens and the Community: Injunctions, Orders, and Police Powers", "slug": "injunctions-orders" },
-    { "id": 32, "topic_id": 3, "title": "Policing Processions, Assemblies and Protests; Offences and Powers", "slug": "processions-protests" },
-    { "id": 33, "topic_id": 3, "title": "Public Order Offences", "slug": "public-order-offences" },
-    { "id": 34, "topic_id": 3, "title": "Sporting Events", "slug": "sporting-events" },
-    { "id": 35, "topic_id": 3, "title": "Domestic Violence and Abuse", "slug": "domestic-violence" },
-    { "id": 36, "topic_id": 3, "title": "Hatred and Harassment Offences", "slug": "hatred-harassment" },
-    { "id": 37, "topic_id": 3, "title": "Offences and Powers Relating to Information and Communications", "slug": "information-communications" },
-    { "id": 38, "topic_id": 3, "title": "Offences Against the Administration of Justice and Public Interest", "slug": "gpd-administration-of-justice" },
-    { "id": 39, "topic_id": 3, "title": "Terrorism and Associated Offences", "slug": "terrorism" },
-    { "id": 40, "topic_id": 3, "title": "Diversity, Equality and Inclusion", "slug": "diversity-inclusion" },
-    { "id": 41, "topic_id": 3, "title": "Complaints and Misconduct", "slug": "complaints-misconduct" },
-    { "id": 42, "topic_id": 3, "title": "Unsatisfactory Performance and Attendance", "slug": "performance-attendance" },
-    { "id": 43, "topic_id": 3, "title": "Road Policing Definitions and Principles", "slug": "road-policing-definitions" },
-    { "id": 44, "topic_id": 3, "title": "Key Police Powers Relating to Road Policing", "slug": "road-policing-powers" },
-    { "id": 45, "topic_id": 3, "title": "Offences Involving Standards of Driving", "slug": "standards-of-driving" },
-    { "id": 46, "topic_id": 3, "title": "Drink, Drugs and Driving", "slug": "drink-drugs-driving" }
-=======
-    { "id": 1, "title": "Non-Fatal Offences", "slug": "non-fatal-offences" },
-    { "id": 2, "title": "Theft & Related", "slug": "theft-related" },
-    { "id": 3, "title": "Criminal Damage", "slug": "criminal-damage" }
-  ],
-  "subtopics": [
-    { "id": 1, "topic_id": 1, "title": "Common Assault", "slug": "common-assault" },
-    { "id": 2, "topic_id": 1, "title": "ABH & Wounding", "slug": "abh-wounding" },
-    { "id": 3, "topic_id": 2, "title": "Theft Act Basics", "slug": "theft-act-basics" },
-    { "id": 4, "topic_id": 2, "title": "Handling & Fraud", "slug": "handling-fraud" },
-    { "id": 5, "topic_id": 3, "title": "Simple Damage", "slug": "simple-damage" },
-    { "id": 6, "topic_id": 3, "title": "Aggravated Damage", "slug": "aggravated-damage" }
-main
+    {
+      "id": 1,
+      "category_id": 1,
+      "title": "Mens Rea (State of Mind)",
+      "slug": "mens-rea",
+      "summary": "Examine subjective and objective fault standards and how recklessness tests have evolved.",
+      "key_points": [
+        "Differentiate intention, recklessness, and negligence in exam scenarios.",
+        "Note how transferred malice and coincidence of actus reus and mens rea are assessed.",
+        "Track key developments from Cunningham to R v G on subjective awareness."
+      ],
+      "core_tasks": [
+        "Sketch comparison tables for direct and oblique intention authorities.",
+        "Practise applying the recklessness test to contemporary problem questions.",
+        "Create flash prompts for defences that negate mens rea, e.g. automatism."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 1 sections 1.4\u20131.7",
+        "CPS Legal Guidance: Intention and Recklessness overview"
+      ],
+      "study_cards": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "title": "Actus Reus (Criminal Conduct)",
+      "slug": "actus-reus",
+      "summary": "Review conduct, circumstance, and consequence elements including omissions liability.",
+      "key_points": [
+        "Identify recognised duties to act that convert omissions into liability.",
+        "Understand causation tests including the thin skull rule and novus actus breaks.",
+        "Distinguish state of affairs offences from result crimes in charging decisions."
+      ],
+      "core_tasks": [
+        "Flowchart factual and legal causation with key cases like Pagett and Cheshire.",
+        "Compile examples of continuing act and single transaction doctrines.",
+        "Drill hypo questions requiring classification of actus reus components."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 1 sections 1.1\u20131.3",
+        "Judicial College Criminal Bench Book on causation"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "title": "Incomplete Offences",
+      "slug": "incomplete-offences",
+      "summary": "Cover attempts, conspiracy, and assisting offences with their mental element thresholds.",
+      "key_points": [
+        "Remember proximity tests for attempts under the Criminal Attempts Act 1981.",
+        "Contrast statutory conspiracy with the common law and double inchoate liability.",
+        "Note evidential requirements for Serious Crime Act assisting/encouraging offences."
+      ],
+      "core_tasks": [
+        "Map each inchoate offence to its actus reus and mens rea components.",
+        "Review case extracts such as R v Jones on attempts beyond mere preparation.",
+        "Practise drafting charges that combine inchoate and substantive counts."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 2",
+        "Serious Crime Act 2007 Part 2 guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "title": "General Defences",
+      "slug": "general-defences",
+      "summary": "Survey complete and partial defences including necessity, duress, intoxication, and insanity.",
+      "key_points": [
+        "Clarify the burden of proof for insanity and diminished responsibility.",
+        "Understand when self-defence is judged subjectively versus objectively.",
+        "Distinguish duress by threats from duress of circumstances in exam fact patterns."
+      ],
+      "core_tasks": [
+        "Create decision trees for raising intoxication in specific and basic intent crimes.",
+        "Analyse recent CPS guidance on self-defence in domestic settings.",
+        "Write summaries of leading authorities like R v Hasan and R v Gladstone Williams."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 3",
+        "CPS Self-Defence and the Prevention of Crime guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "title": "Homicide",
+      "slug": "homicide",
+      "summary": "Outline the hierarchy from murder to manslaughter alongside loss of control and diminished responsibility.",
+      "key_points": [
+        "Memorise the elements of unlawful act and gross negligence manslaughter.",
+        "Track partial defences introduced by the Coroners and Justice Act 2009.",
+        "Review sentencing frameworks including mandatory life starting points."
+      ],
+      "core_tasks": [
+        "Compare fact patterns that separate murder from gross negligence manslaughter.",
+        "Summarise causation nuances unique to homicide such as life-support cases.",
+        "Note investigative steps for sudden infant death or corporate manslaughter."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 4",
+        "Judicial College Homicide Bench Book extracts"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 6,
+      "category_id": 1,
+      "title": "Misuse of Drugs",
+      "slug": "misuse-of-drugs",
+      "summary": "Explore offences under the Misuse of Drugs Act 1971 and defences for lawful authority.",
+      "key_points": [
+        "Differentiate possession, supply, and production with respective evidential needs.",
+        "Recall temporary class drug orders and their enforcement powers.",
+        "Consider evidential issues around custody plus knowledge for constructive possession."
+      ],
+      "core_tasks": [
+        "Update schedules for Class A\u2013C drugs with common trade names.",
+        "Practise drafting MG11 statements for street-level supply cases.",
+        "Review PACE Code B search requirements for drug warrants."
+      ],
+      "resources": [
+        "Misuse of Drugs Act 1971 overview",
+        "Blackstone's Crime 2025 Chapter 5"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 7,
+      "category_id": 1,
+      "title": "Firearms and Gun Crime",
+      "slug": "firearms",
+      "summary": "Understand classifications of firearms, certificates, and prohibited weapons under the Firearms Acts.",
+      "key_points": [
+        "Distinguish Section 1, Section 2, and prohibited weapons controls.",
+        "Review sentencing guidelines for possession of prohibited weapons.",
+        "Identify lawful excuses and defences such as antique firearm provisions."
+      ],
+      "core_tasks": [
+        "Compile a checklist for firearm seizure and evidential labelling.",
+        "Summarise key definitions like 'lethal barrelled weapon' and 'imitation firearm'.",
+        "Review Home Office circulars on air weapon controls."
+      ],
+      "resources": [
+        "Firearms Act 1968 Part I summary",
+        "Blackstone's Crime 2025 Chapter 6"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 8,
+      "category_id": 1,
+      "title": "Racially and Religiously Aggravated Offences",
+      "slug": "racially-aggravated",
+      "summary": "Highlight aggravated offences under the Crime and Disorder Act 1998 and sentencing uplifts.",
+      "key_points": [
+        "Identify the four base offences that attract racially or religiously aggravated forms.",
+        "Apply the 'demonstrated' versus 'motivated' tests for hostility.",
+        "Understand reporting requirements for hate crime investigations."
+      ],
+      "core_tasks": [
+        "Draft scenario notes capturing evidence of hostility statements.",
+        "Review CPS guidance on supporting victims of hate crime.",
+        "Create crib sheets for sentencing uplift factors."
+      ],
+      "resources": [
+        "Crime and Disorder Act 1998 ss.28\u201332",
+        "CPS Hate Crime prosecution guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "title": "Non-fatal Offences Against the Person",
+      "slug": "non-fatal-offences",
+      "summary": "Compare common assault, ABH, GBH, and wounding with lawful excuse defences.",
+      "key_points": [
+        "Clarify charging standards between section 20 and section 18 OAPA.",
+        "Remember consent rules for injuries in sport or medical contexts.",
+        "Link injury descriptions to evidential photographs and medical reports."
+      ],
+      "core_tasks": [
+        "Build a quick reference comparing elements of assault, ABH, GBH, and battery.",
+        "Practise scenario grading using CPS charging standards.",
+        "Review case law like R v Brown on consent limitations."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 7",
+        "CPS Offences Against the Person guidance"
+      ],
+      "study_cards": [
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "title": "Miscellaneous Offences Against the Person and Offences Involving the Deprivation of Liberty",
+      "slug": "misc-offences",
+      "summary": "Cover kidnapping, false imprisonment, coercive control, and liberty offences not elsewhere classified.",
+      "key_points": [
+        "Understand elements of kidnapping including force or fraud in removal.",
+        "Review Stalking Protection Orders and controlling behaviour offences.",
+        "Recognise evidential needs for modern slavery and trafficking overlaps."
+      ],
+      "core_tasks": [
+        "Summarise victim safeguarding steps and partnership referrals.",
+        "Draft outlines for charging false imprisonment versus kidnapping.",
+        "Update yourself on Domestic Abuse Act 2021 protective tools."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 8",
+        "Home Office Controlling or Coercive Behaviour guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "title": "Sexual Offences",
+      "slug": "sexual-offences",
+      "summary": "Study consent, capacity, and the structure of the Sexual Offences Act 2003.",
+      "key_points": [
+        "Understand evidential presumptions around consent and reasonable belief.",
+        "Note offences protecting children and vulnerable adults including position of trust provisions.",
+        "Track notification requirements and Sexual Harm Prevention Orders."
+      ],
+      "core_tasks": [
+        "Build flow charts for consent presumptions and rebuttal evidence.",
+        "Review case studies on grooming and online facilitation offences.",
+        "Update safeguarding referral pathways for sexual offence complainants."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 9",
+        "College of Policing guidance on rape and serious sexual offences"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "title": "Child Protection",
+      "slug": "child-protection",
+      "summary": "Summarise criminal offences and safeguarding duties relating to the protection of children.",
+      "key_points": [
+        "Differentiate offences under the Children and Young Persons Act and Sexual Offences Act.",
+        "Recall powers for child abduction warnings and forced marriage protection.",
+        "Recognise multi-agency responsibilities under Working Together to Safeguard Children."
+      ],
+      "core_tasks": [
+        "Review strategy discussion triggers with social care partners.",
+        "Draft timeline notes for Section 47 enquiries and emergency protection orders.",
+        "Compile checklists for evidence preservation in child abuse cases."
+      ],
+      "resources": [
+        "Working Together to Safeguard Children 2023",
+        "Blackstone's Crime 2025 Chapter 10"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "title": "Theft and Related Offences",
+      "slug": "theft",
+      "summary": "Analyse Theft Act offences from appropriation through dishonesty and intention to permanently deprive.",
+      "key_points": [
+        "Distinguish robbery, burglary, and aggravated burglary elements.",
+        "Apply the Ivey dishonesty test and ownership concepts for property.",
+        "Remember handling stolen goods and making off without payment specifics."
+      ],
+      "core_tasks": [
+        "Create scenario grids comparing basic theft and robbery fact patterns.",
+        "Summarise building entry requirements for domestic and commercial burglaries.",
+        "Practise drafting MG5 summaries highlighting dishonesty evidence."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 11",
+        "Sentencing Council Theft Offences guideline"
+      ],
+      "study_cards": [
+        3
+      ]
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "title": "Fraud",
+      "slug": "fraud",
+      "summary": "Review Fraud Act 2006 offences and related deception, company, and benefit fraud provisions.",
+      "key_points": [
+        "Contrast false representation, failure to disclose, and abuse of position offences.",
+        "Note jurisdictional reach for online fraud and corporate offending.",
+        "Track ancillary money laundering obligations under POCA 2002."
+      ],
+      "core_tasks": [
+        "Create checklists for MG3 submissions on complex fraud cases.",
+        "Review Suspicious Activity Report triggers for frontline officers.",
+        "Summarise fraud investigation models from volume crime to major enquiry."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 12",
+        "Serious Fraud Office operational handbook"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "title": "Criminal Damage",
+      "slug": "criminal-damage",
+      "summary": "Cover criminal damage and arson including aggravated forms and lawful excuse.",
+      "key_points": [
+        "Differentiate basic damage from arson and aggravated criminal damage.",
+        "Explain lawful excuse defences under s.5 Criminal Damage Act 1971.",
+        "Note sentencing considerations for racially aggravated damage."
+      ],
+      "core_tasks": [
+        "Draft mnemonics for the elements of reckless damage.",
+        "Review joint enterprise liability for group criminal damage incidents.",
+        "Update operational guidance on protest-related damage."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 13",
+        "CPS Criminal Damage legal guidance"
+      ],
+      "study_cards": [
+        4
+      ]
+    },
+    {
+      "id": 16,
+      "category_id": 1,
+      "title": "Offences Against the Administration of Justice and Public Interest",
+      "slug": "administration-of-justice",
+      "summary": "Examine perverting the course of justice, assisting offenders, and public justice offences.",
+      "key_points": [
+        "Identify when withholding information crosses into criminal liability.",
+        "Distinguish perjury, perverting, and wasting police time elements.",
+        "Understand sentencing starting points for contempt-related offences."
+      ],
+      "core_tasks": [
+        "Draft briefing notes on disclosure failures leading to misconduct proceedings.",
+        "Review case studies on false allegations and fabricated evidence.",
+        "Note referral routes to the IOPC for justice interference."
+      ],
+      "resources": [
+        "Blackstone's Crime 2025 Chapter 14",
+        "Judicial College guidance on contempt"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 17,
+      "category_id": 2,
+      "title": "Instituting Criminal Proceedings",
+      "slug": "instituting-proceedings",
+      "summary": "Track first appearance processes, charging routes, and time limits for commencing proceedings.",
+      "key_points": [
+        "Differentiate when police or CPS charge and the role of DG6.",
+        "Remember six-month limitation periods for summary-only offences.",
+        "Clarify postal requisition steps and bail requirements."
+      ],
+      "core_tasks": [
+        "Practise drafting case summaries that satisfy the Full Code Test.",
+        "Review MG3 referral criteria and evidential packages.",
+        "Create a flowchart of the criminal timeline from arrest to first hearing."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 4",
+        "CPS Legal Guidance: Pre-Charge Decision-Making"
+      ],
+      "study_cards": [
+        5
+      ]
+    },
+    {
+      "id": 18,
+      "category_id": 2,
+      "title": "Release of Person Arrested",
+      "slug": "release-of-person-arrested",
+      "summary": "Summarise bail, release under investigation, and post-charge bail frameworks.",
+      "key_points": [
+        "Differentiate pre-charge bail tests and authorised extensions.",
+        "Recall the conditions for release under investigation and reporting.",
+        "Understand post-charge bail considerations and court oversight."
+      ],
+      "core_tasks": [
+        "Create quick-reference tables for bail time limits after amendments in 2022.",
+        "Review case studies on bail breaches and enforcement powers.",
+        "Draft officer updates for CPS bail variation applications."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 5",
+        "Home Office Bail (Disclosure and Safeguards) Act 2022 guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 19,
+      "category_id": 2,
+      "title": "Court Procedure and Witnesses",
+      "slug": "court-procedure",
+      "summary": "Explain criminal court structures, allocation decisions, and trial management.",
+      "key_points": [
+        "Understand mode of trial hearings and allocation criteria.",
+        "Review magistrates', Crown Court, and youth court jurisdiction limits.",
+        "Note case management powers including Better Case Management milestones."
+      ],
+      "core_tasks": [
+        "Draft crib sheets on plea before venue and Newton hearings.",
+        "Summarise special measures applications for vulnerable witnesses.",
+        "Practise scheduling timelines for disclosure and PCMH hearings."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 6",
+        "HMCTS Better Case Management handbook"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 20,
+      "category_id": 2,
+      "title": "Exclusion of Admissible Evidence",
+      "slug": "exclusion-of-evidence",
+      "summary": "Review PACE s.76 and s.78 exclusionary rules plus common law discretion.",
+      "key_points": [
+        "Distinguish confessions challenges from general fairness applications.",
+        "Understand the interplay between bad character evidence and exclusion.",
+        "Note key authorities on oppression and unreliability assessments."
+      ],
+      "core_tasks": [
+        "Practise drafting skeleton arguments for exclusion hearings.",
+        "Analyse case law updates on digital interview reliability.",
+        "Record thresholds for excluding unlawfully obtained evidence."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 7",
+        "PACE Code C and Code H extracts"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 21,
+      "category_id": 2,
+      "title": "Disclosure of Evidence",
+      "slug": "disclosure-of-evidence",
+      "summary": "Outline CPIA 1996 duties, MG6 schedules, and continuing review requirements.",
+      "key_points": [
+        "Memorise the revelation test for unused material to the prosecutor.",
+        "Recognise defence applications for specific disclosure and court orders.",
+        "Track roles of disclosure champions and digital review tools."
+      ],
+      "core_tasks": [
+        "Audit a case file using disclosure checklists to identify gaps.",
+        "Draft a disclosure management document summarising key issues.",
+        "Review training resources on handling large-volume digital material."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 9",
+        "CPS Disclosure Manual 2024 update"
+      ],
+      "study_cards": [
+        6
+      ]
+    },
+    {
+      "id": 22,
+      "category_id": 2,
+      "title": "Detention and Treatment of Persons by Police Officers: PACE Code C",
+      "slug": "pace-code-c",
+      "summary": "Study detention powers, detainee rights, and custody officer duties under PACE Code C.",
+      "key_points": [
+        "Remember review timings, rest breaks, and legal advice entitlements.",
+        "Differentiate adult, juvenile, and vulnerable detainee safeguards.",
+        "Track recording obligations for detention log entries."
+      ],
+      "core_tasks": [
+        "Log rest period reminders for long-running detentions.",
+        "Rehearse urgent interview authorisations where solicitors are delayed.",
+        "Update custody dashboards with vulnerability markers."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 10",
+        "NPCC Custody Officer Practical Guide"
+      ],
+      "study_cards": [
+        7
+      ]
+    },
+    {
+      "id": 23,
+      "category_id": 2,
+      "title": "Identification: PACE Code D",
+      "slug": "pace-code-d",
+      "summary": "Cover identification procedures, eyewitness evidence, and use of photographs under PACE Code D.",
+      "key_points": [
+        "Distinguish video identification, identification parades, and group IDs.",
+        "Recall trigger points requiring formal identification procedures.",
+        "Understand keeping accurate records and ensuring fairness for the suspect."
+      ],
+      "core_tasks": [
+        "Create quick guides comparing live and video identification workflows.",
+        "Practise drafting notices for witnesses and suspects participating in ID procedures.",
+        "Review case law on breaches of Code D leading to exclusion."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 11",
+        "College of Policing guidance on witness identification"
+      ],
+      "study_cards": [
+        8
+      ]
+    },
+    {
+      "id": 24,
+      "category_id": 2,
+      "title": "Interviews: PACE Codes C, E and F",
+      "slug": "pace-codes-c-e-f",
+      "summary": "Summarise audio and visual recording duties across PACE Codes C, E, and F.",
+      "key_points": [
+        "Differentiate mandatory audio recording versus optional visual recording scenarios.",
+        "Understand secure storage, sealing, and disclosure of interview recordings.",
+        "Note rights of suspects to access recordings and transcripts."
+      ],
+      "core_tasks": [
+        "Rehearse equipment checks and fallback plans for recorder failure.",
+        "Draft aide-memoires for ensuring interpreters and legal reps are captured clearly.",
+        "Review policy on remote interviews introduced post-pandemic."
+      ],
+      "resources": [
+        "Blackstone's Evidence & Procedure 2025 Chapter 12",
+        "PACE Code E and F statutory instruments"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 25,
+      "category_id": 3,
+      "title": "Stop and Search",
+      "slug": "stop-and-search",
+      "summary": "Detail statutory and common law stop and search powers with proportionality safeguards.",
+      "key_points": [
+        "Memorise GOWISELY requirements and documentation standards.",
+        "Differentiate Section 1 PACE, Section 23 MDA, and Section 60 CJPOA powers.",
+        "Track best practice for community engagement after Section 60 authorisations."
+      ],
+      "core_tasks": [
+        "Practise articulating reasonable grounds based on objective facts.",
+        "Review body-worn video policies and post-search outcomes monitoring.",
+        "Drill cross-cultural communication strategies to reduce conflict."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 1",
+        "College of Policing stop and search APP"
+      ],
+      "study_cards": [
+        9
+      ]
+    },
+    {
+      "id": 26,
+      "category_id": 3,
+      "title": "Entry, Search and Seizure",
+      "slug": "entry-search-seizure",
+      "summary": "Set out powers for entering premises, executing warrants, and seizing evidence.",
+      "key_points": [
+        "Compare PACE powers with common law and statutory warrantless entries.",
+        "Note requirements for search warrants, including information needed and validity periods.",
+        "Understand rules for retaining, copying, and returning seized property."
+      ],
+      "core_tasks": [
+        "Compile a warrant application checklist including necessity and proportionality.",
+        "Practise documenting seizures to maintain continuity of evidence.",
+        "Review occupier rights and how to handle legally privileged material."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 2",
+        "PACE Code B statutory instruments"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 27,
+      "category_id": 3,
+      "title": "Powers of Arrest",
+      "slug": "powers-of-arrest",
+      "summary": "Explain statutory arrest powers, necessity criteria, and special case warrants.",
+      "key_points": [
+        "Memorise Section 24 PACE arrest conditions and necessity grounds.",
+        "Recall arrest powers for indictable offences, breaches of the peace, and warrants.",
+        "Understand safeguarding considerations when arresting vulnerable suspects."
+      ],
+      "core_tasks": [
+        "Practise articulating necessity rationales in pocket notebooks.",
+        "Review case law on unlawful arrest damages to avoid procedural mistakes.",
+        "Rehearse dynamic risk assessments for violent arrest scenarios."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 3",
+        "College of Policing arrest APP"
+      ],
+      "study_cards": [
+        10
+      ]
+    },
+    {
+      "id": 28,
+      "category_id": 3,
+      "title": "Protection of People Suffering from Mental Disorders",
+      "slug": "mental-disorder-protection",
+      "summary": "Summarise police powers under the Mental Health Act 1983 and Mental Capacity Act 2005.",
+      "key_points": [
+        "Differentiate Sections 135 and 136 powers including place of safety duties.",
+        "Recognise deprivation of liberty safeguards and best interest principles.",
+        "Note partnership protocols with health services during crisis response."
+      ],
+      "core_tasks": [
+        "Compile referral contacts for crisis teams and approved mental health professionals.",
+        "Review scenario plans for Section 136 detentions outside normal hours.",
+        "Update training notes on mental vulnerability risk assessments."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 4",
+        "College of Policing mental health APP"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 29,
+      "category_id": 3,
+      "title": "Offences Relating to Land and Premises",
+      "slug": "land-premises",
+      "summary": "Cover offences involving trespass, squatting, and protection of property from unlawful occupation.",
+      "key_points": [
+        "Distinguish civil trespass from criminal offences under the Legal Aid, Sentencing and Punishment of Offenders Act 2012.",
+        "Note powers relating to aggravated trespass and raves under CJPOA 1994.",
+        "Understand dealing with travellers and unauthorised encampments."
+      ],
+      "core_tasks": [
+        "Create checklists for serving direction to leave notices.",
+        "Review partnership arrangements with local authorities and landowners.",
+        "Summarise evidential requirements for prosecuting squatting offences."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 5",
+        "Home Office guidance on unauthorised encampments"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 30,
+      "category_id": 3,
+      "title": "Licensing and Offences",
+      "slug": "licensing",
+      "summary": "Outline police roles in alcohol, late-night refreshment, and entertainment licensing.",
+      "key_points": [
+        "Remember grounds for licensing objections and review applications.",
+        "Differentiate closure powers under the Licensing Act and Anti-Social Behaviour legislation.",
+        "Track cumulative impact policies and safeguarding triggers for child protection."
+      ],
+      "core_tasks": [
+        "Draft example representations for licensing reviews citing the four licensing objectives.",
+        "Review steps for expedited reviews following serious disorder.",
+        "Update contact lists for responsible authorities in licensing partnerships."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 6",
+        "Home Office Section 182 Licensing Act guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 31,
+      "category_id": 3,
+      "title": "Protecting Citizens and the Community: Injunctions, Orders, and Police Powers",
+      "slug": "injunctions-orders",
+      "summary": "Review civil preventive orders including criminal behaviour orders, sexual harm prevention orders, and injunctions.",
+      "key_points": [
+        "Contrast statutory thresholds and application routes for protective orders.",
+        "Understand breach consequences and evidential requirements.",
+        "Recognise multi-agency management responsibilities once orders are granted."
+      ],
+      "core_tasks": [
+        "Create quick reference tables comparing order durations and renewal processes.",
+        "Draft template MG11 statements supporting order applications.",
+        "Review MAPPA coordination for high-risk subjects."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 7",
+        "Home Office guidance on civil preventative orders"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 32,
+      "category_id": 3,
+      "title": "Policing Processions, Assemblies and Protests; Offences and Powers",
+      "slug": "processions-protests",
+      "summary": "Explain policing of public processions, assemblies, and protest-related offences.",
+      "key_points": [
+        "Remember Sections 11\u201314 Public Order Act notification and conditions powers.",
+        "Understand serious disruption prevention orders under the Public Order Act 2023.",
+        "Note balancing Convention rights with community impact assessments."
+      ],
+      "core_tasks": [
+        "Develop protest policing plans considering gold/silver/bronze command structures.",
+        "Review tactical options for dealing with static protests and slow walking.",
+        "Debrief recent national protests to identify learning for future deployments."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 8",
+        "NPCC Protest Policing operational advice"
+      ],
+      "study_cards": [
+        11
+      ]
+    },
+    {
+      "id": 33,
+      "category_id": 3,
+      "title": "Public Order Offences",
+      "slug": "public-order-offences",
+      "summary": "Summarise Public Order Act offences from affray to violent disorder and new protest-related crimes.",
+      "key_points": [
+        "Differentiate sections 4, 4A, and 5 Public Order Act thresholds.",
+        "Note updates introducing locking-on and tunnelling offences.",
+        "Understand evidential requirements for fear or provocation of violence."
+      ],
+      "core_tasks": [
+        "Create quick decision trees for charging under sections 4 versus 5.",
+        "Review body-worn evidence capture standards for disorder scenes.",
+        "Practise writing rationale for imposing or extending Section 35 dispersal orders."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 9",
+        "CPS Public Order Offences legal guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 34,
+      "category_id": 3,
+      "title": "Sporting Events",
+      "slug": "sporting-events",
+      "summary": "Highlight policing responsibilities under sports legislation and banning orders.",
+      "key_points": [
+        "Recall Football Spectators Act powers for banning orders and passport surrender.",
+        "Understand alcohol restrictions and transport controls on match days.",
+        "Note safety certificate enforcement for stadia and large venues."
+      ],
+      "core_tasks": [
+        "Coordinate match-day briefing packs with safety officers.",
+        "Review intelligence submission requirements for football disorder.",
+        "Update debrief templates capturing lessons learned after fixtures."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 10",
+        "UK Football Policing Unit good practice guides"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 35,
+      "category_id": 3,
+      "title": "Domestic Violence and Abuse",
+      "slug": "domestic-violence",
+      "summary": "Cover Domestic Abuse Act 2021 reforms, protective notices, and victim support duties.",
+      "key_points": [
+        "Understand Domestic Abuse Protection Notice (DAPN) and Order (DAPO) processes.",
+        "Recognise controlling or coercive behaviour indicators beyond physical violence.",
+        "Note duties to provide information on specialist support services."
+      ],
+      "core_tasks": [
+        "Practise DASH risk assessments with up-to-date high-risk factors.",
+        "Review joint agency MARAC workflows and referral timelines.",
+        "Create quick guides for applying protective notices out of hours."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 11",
+        "Home Office Domestic Abuse statutory guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 36,
+      "category_id": 3,
+      "title": "Hatred and Harassment Offences",
+      "slug": "hatred-harassment",
+      "summary": "Summarise hate crime strands, aggravated offences, and harassment/stalking frameworks.",
+      "key_points": [
+        "Differentiate Protection from Harassment Act offences and stalking protection orders.",
+        "Record five monitored strands of hate crime and intersectional considerations.",
+        "Understand evidential requirements for course of conduct and fear of violence."
+      ],
+      "core_tasks": [
+        "Update victim personal statement guidance emphasising community impact.",
+        "Review interim measures to safeguard victims pending court outcomes.",
+        "Compile contact lists for independent advocacy groups."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 12",
+        "CPS Stalking and Harassment legal guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 37,
+      "category_id": 3,
+      "title": "Offences and Powers Relating to Information and Communications",
+      "slug": "information-communications",
+      "summary": "Review communications offences, malicious online activity, and investigative powers.",
+      "key_points": [
+        "Distinguish Malicious Communications Act, Communications Act, and Online Safety Act offences.",
+        "Understand Computer Misuse Act thresholds for unauthorised access.",
+        "Note data preservation requests and digital forensics triage."
+      ],
+      "core_tasks": [
+        "Draft action plans for securing social media evidence quickly.",
+        "Review procedures for obtaining subscriber information from service providers.",
+        "Practise risk assessments for live-streamed self-harm incidents."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 13",
+        "College of Policing digital intelligence and investigation APP"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 38,
+      "category_id": 3,
+      "title": "Offences Against the Administration of Justice and Public Interest",
+      "slug": "gpd-administration-of-justice",
+      "summary": "Explore misconduct in public office, corruption, and police-specific justice offences.",
+      "key_points": [
+        "Identify elements of misconduct in public office and wilful neglect of duty.",
+        "Understand bribery offences and reporting obligations for corruption intelligence.",
+        "Note sanctions for leaking information and improper disclosure."
+      ],
+      "core_tasks": [
+        "Review national decision model application to integrity scenarios.",
+        "Practise drafting anti-corruption intelligence submissions.",
+        "Update knowledge of protective marking and information security rules."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 14",
+        "College of Policing Code of Ethics resources"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 39,
+      "category_id": 3,
+      "title": "Terrorism and Associated Offences",
+      "slug": "terrorism",
+      "summary": "Summarise Terrorism Act powers, proscribed organisations, and Prevent duties.",
+      "key_points": [
+        "Differentiate arrest, search, and detention powers unique to terrorism legislation.",
+        "Recall notification requirements and offences for proscribed organisations.",
+        "Understand Prevent referral pathways and Channel panels."
+      ],
+      "core_tasks": [
+        "Create quick reference cards for Schedule 7 ports powers.",
+        "Review briefing products on current threat levels and attack methodologies.",
+        "Practise reporting thresholds for Section 38B disclosures."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 15",
+        "Home Office CONTEST strategy summary"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 40,
+      "category_id": 3,
+      "title": "Diversity, Equality and Inclusion",
+      "slug": "diversity-inclusion",
+      "summary": "Explore Equality Act duties, inclusive policing strategies, and cultural competence.",
+      "key_points": [
+        "Recall protected characteristics and the Public Sector Equality Duty.",
+        "Understand community impact assessments and consultation obligations.",
+        "Note inclusive language principles and trauma-informed approaches."
+      ],
+      "core_tasks": [
+        "Audit team plans for representation and inclusion priorities.",
+        "Review reasonable adjustment policies for staff and the public.",
+        "Create reflection logs following community engagement events."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 16",
+        "College of Policing diversity and inclusion toolkit"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 41,
+      "category_id": 3,
+      "title": "Complaints and Misconduct",
+      "slug": "complaints-misconduct",
+      "summary": "Explain police complaints handling, misconduct procedures, and IOPC oversight.",
+      "key_points": [
+        "Differentiate complaint categories and special requirements notices.",
+        "Understand misconduct meeting versus hearing thresholds.",
+        "Remember referral triggers to the IOPC and post-incident procedures."
+      ],
+      "core_tasks": [
+        "Practise drafting Regulation 13 updates to complainants.",
+        "Review reflective practice review process stages and outcomes.",
+        "Summarise time limits and suspension considerations for officers under investigation."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 17",
+        "IOPC Statutory Guidance on the Police Complaints system"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 42,
+      "category_id": 3,
+      "title": "Unsatisfactory Performance and Attendance",
+      "slug": "performance-attendance",
+      "summary": "Review unsatisfactory performance procedures, attendance management, and wellbeing support.",
+      "key_points": [
+        "Distinguish performance versus misconduct routes under Police Regulations.",
+        "Understand stages of the Unsatisfactory Performance Procedures (UPP).",
+        "Recognise support measures including welfare referrals and reasonable adjustments."
+      ],
+      "core_tasks": [
+        "Prepare briefing notes for stage meetings highlighting expected improvements.",
+        "Review sickness absence triggers and occupational health referrals.",
+        "Create wellbeing action plans tailored to frontline roles."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 18",
+        "College of Policing wellbeing toolkit"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 43,
+      "category_id": 3,
+      "title": "Road Policing Definitions and Principles",
+      "slug": "road-policing-definitions",
+      "summary": "Introduce road traffic terminology, vehicle classifications, and enforcement responsibilities.",
+      "key_points": [
+        "Recall definitions for motor vehicle, mechanically propelled vehicle, and relevant classes.",
+        "Understand licensing, insurance, and test certificate requirements.",
+        "Note role of ANPR and intelligence in road threat assessments."
+      ],
+      "core_tasks": [
+        "Create quick reference cards for construction and use regulations.",
+        "Review protocols for vehicle examinations and prohibitions.",
+        "Update partnership contacts for highways agencies and recovery operators."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 19",
+        "NPCC National Roads Policing Strategy overview"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 44,
+      "category_id": 3,
+      "title": "Key Police Powers Relating to Road Policing",
+      "slug": "road-policing-powers",
+      "summary": "Summarise statutory powers for stopping vehicles, breath testing, and vehicle seizure.",
+      "key_points": [
+        "Differentiate Section 163 RTA stop powers from other statutory authorities.",
+        "Recall seizure powers for no insurance, anti-social driving, and evidence preservation.",
+        "Understand graduated fixed penalties and roadside deposit schemes."
+      ],
+      "core_tasks": [
+        "Practise roadside briefing scripts covering rights and obligations.",
+        "Review forms and notices required for each seizure power.",
+        "Develop case studies on cross-border pursuits and inter-force protocols."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 20",
+        "DVSA and NPCC roadside enforcement guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 45,
+      "category_id": 3,
+      "title": "Offences Involving Standards of Driving",
+      "slug": "standards-of-driving",
+      "summary": "Cover careless, dangerous, and aggravated driving offences plus vulnerable road user protections.",
+      "key_points": [
+        "Distinguish dangerous driving from careless by reference to the competent and careful driver test.",
+        "Understand causing death by driving offences and sentencing guidelines.",
+        "Note updates on mobile phone use and exceptional hardship arguments."
+      ],
+      "core_tasks": [
+        "Summarise collision investigation steps and golden hour actions.",
+        "Review evidential requirements for dash cam, CCTV, and telematics.",
+        "Practise drafting MG5 summaries highlighting aggravating features."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 21",
+        "CPS Road Traffic Offences legal guidance"
+      ],
+      "study_cards": []
+    },
+    {
+      "id": 46,
+      "category_id": 3,
+      "title": "Drink, Drugs and Driving",
+      "slug": "drink-drugs-driving",
+      "summary": "Detail drink and drug driving offences, evidential procedures, and rehabilitation options.",
+      "key_points": [
+        "Recall limits for alcohol and specified controlled drugs in blood and breath.",
+        "Understand preliminary testing devices and evidential sample requirements.",
+        "Note disqualification periods, high-risk offender schemes, and rehabilitation courses."
+      ],
+      "core_tasks": [
+        "Practise completing MGDD forms accurately under time pressure.",
+        "Review hospital procedure for obtaining samples from incapacitated drivers.",
+        "Create checklists for documenting roadside impairment observations."
+      ],
+      "resources": [
+        "Blackstone's General Duties 2025 Chapter 22",
+        "Department for Transport drug driving statistics briefing"
+      ],
+      "study_cards": [
+        12
+      ]
+    }
   ],
   "cards": [
     {
       "id": 1,
-      "subtopic_id": 1,
-codex/create-static-site-for-police-sergeant-revision-52i62c
       "question": "Under the R v G test, what must the prosecution show about the defendant's awareness of risk?",
       "answer": "That they were aware of the risk and unreasonably went on to take it",
       "reference": "Blackstone's, Crime 2025, 1.4.3 p.112",
       "subtitle": "Subjective recklessness",
-      "tags": ["mens rea", "recklessness"],
-      "explanation": "R v G re-established that recklessness requires the defendant to foresee the risk and take it anyway." 
+      "tags": [
+        "mens rea",
+        "recklessness"
+      ],
+      "explanation": "R v G re-established that recklessness requires the defendant to foresee the risk and take it anyway.",
+      "topic_id": 1
     },
     {
       "id": 2,
-      "subtopic_id": 9,
-
-main
       "question": "Which element best describes the actus reus of common assault?",
       "answer": "Causing another to apprehend immediate unlawful violence",
       "reference": "Blackstone's, Crime 2025, 1.16.2 p.219",
       "subtitle": "Assault essentials",
-      "tags": ["actus reus", "assault"],
-codex/create-static-site-for-police-sergeant-revision-52i62c
-      "explanation": "Common assault can be committed without physical contact where the victim fears immediate unlawful force." 
+      "tags": [
+        "actus reus",
+        "assault"
+      ],
+      "explanation": "Common assault can be committed without physical contact where the victim fears immediate unlawful force.",
+      "topic_id": 9
     },
     {
       "id": 3,
-      "subtopic_id": 13,
       "question": "What is the definition of 'appropriation' under s.3 Theft Act 1968?",
       "answer": "Any assumption of the rights of the owner",
       "reference": "Blackstone's, Crime 2025, 2.4.2 p.311",
       "subtitle": "Appropriation defined",
-      "tags": ["theft", "property"],
-      "explanation": "Assuming any of the owner's rights is sufficient; the defendant need not assume all rights." 
+      "tags": [
+        "theft",
+        "property"
+      ],
+      "explanation": "Assuming any of the owner's rights is sufficient; the defendant need not assume all rights.",
+      "topic_id": 13
     },
     {
       "id": 4,
-      "subtopic_id": 15,
       "question": "What mental element is required for basic criminal damage under s.1(1) CDA 1971?",
       "answer": "Intention or recklessness as to damaging property",
       "reference": "Blackstone's, Crime 2025, 3.2.4 p.401",
       "subtitle": "Mens rea focus",
-      "tags": ["criminal damage", "mens rea"]
+      "tags": [
+        "criminal damage",
+        "mens rea"
+      ],
+      "topic_id": 15
     },
     {
       "id": 5,
-      "subtopic_id": 17,
       "question": "Which document usually commences an either-way offence in the magistrates' court?",
       "answer": "A written charge with requisition",
       "reference": "Blackstone's, Evidence & Procedure 2025, 4.2.1 p.52",
       "subtitle": "Starting proceedings",
-      "tags": ["proceedings", "charging"],
-      "explanation": "For most either-way offences the CPS issues a written charge and requisition to bring the defendant before the court." 
+      "tags": [
+        "proceedings",
+        "charging"
+      ],
+      "explanation": "For most either-way offences the CPS issues a written charge and requisition to bring the defendant before the court.",
+      "topic_id": 17
     },
     {
       "id": 6,
-      "subtopic_id": 21,
       "question": "What is the prosecutor's core duty under the CPIA 1996 disclosure regime?",
       "answer": "To disclose material that might reasonably undermine the prosecution or assist the defence",
       "reference": "Blackstone's, Evidence & Procedure 2025, 9.3.2 p.132",
       "subtitle": "Disclosure test",
-      "tags": ["disclosure", "CPIA"]
+      "tags": [
+        "disclosure",
+        "CPIA"
+      ],
+      "topic_id": 21
     },
     {
       "id": 7,
-      "subtopic_id": 22,
       "question": "Within what maximum period must detainees be generally reviewed under PACE Code C?",
       "answer": "At least every six hours by the custody officer",
       "reference": "Blackstone's, Evidence & Procedure 2025, 10.5.1 p.158",
       "subtitle": "Custody reviews",
-      "tags": ["PACE", "custody"],
-      "explanation": "The custody officer must carry out reviews not more than six hours apart to ensure the detention remains lawful." 
+      "tags": [
+        "PACE",
+        "custody"
+      ],
+      "explanation": "The custody officer must carry out reviews not more than six hours apart to ensure the detention remains lawful.",
+      "topic_id": 22
     },
     {
       "id": 8,
-      "subtopic_id": 23,
       "question": "When must an identification procedure be held under PACE Code D?",
       "answer": "When the suspect disputes identification and it is practicable and useful",
       "reference": "Blackstone's, Evidence & Procedure 2025, 11.4.2 p.188",
       "subtitle": "ID procedures",
-      "tags": ["PACE", "identification"]
+      "tags": [
+        "PACE",
+        "identification"
+      ],
+      "topic_id": 23
     },
     {
       "id": 9,
-      "subtopic_id": 25,
       "question": "Under s.1 PACE, what threshold must be met before exercising a stop and search for stolen goods?",
       "answer": "Reasonable grounds for suspicion based on objective factors",
       "reference": "Blackstone's, General Duties 2025, 1.3.1 p.12",
       "subtitle": "Stop and search test",
-      "tags": ["PACE", "stop and search"]
+      "tags": [
+        "PACE",
+        "stop and search"
+      ],
+      "topic_id": 25
     },
     {
       "id": 10,
-      "subtopic_id": 27,
       "question": "Which criteria must be satisfied for a lawful arrest without warrant under s.24 PACE?",
       "answer": "Reasonable suspicion plus necessity under the statutory grounds",
       "reference": "Blackstone's, General Duties 2025, 3.2.4 p.54",
       "subtitle": "Arrest necessity",
-      "tags": ["arrest", "PACE"],
-      "explanation": "Even with reasonable suspicion, the arresting officer must establish that arrest is necessary for one of the s.24(5) reasons." 
+      "tags": [
+        "arrest",
+        "PACE"
+      ],
+      "explanation": "Even with reasonable suspicion, the arresting officer must establish that arrest is necessary for one of the s.24(5) reasons.",
+      "topic_id": 27
     },
     {
       "id": 11,
-      "subtopic_id": 32,
       "question": "Which legislation primarily governs imposing conditions on public processions?",
       "answer": "Public Order Act 1986, section 12",
       "reference": "Blackstone's, General Duties 2025, 7.1.2 p.118",
       "subtitle": "Procession powers",
-      "tags": ["public order", "processions"]
+      "tags": [
+        "public order",
+        "processions"
+      ],
+      "topic_id": 32
     },
     {
       "id": 12,
-      "subtopic_id": 46,
       "question": "What is the prescribed limit for alcohol in breath for driving in England and Wales?",
       "answer": "35 microgrammes of alcohol per 100 millilitres of breath",
       "reference": "Blackstone's, General Duties 2025, 16.4.1 p.268",
       "subtitle": "Drink drive limit",
-      "tags": ["road policing", "drink driving"]
-=======
-      "explanation": "Common assault requires an act causing apprehension of immediate unlawful force; no physical contact is needed."
-    },
-    {
-      "id": 2,
-      "subtopic_id": 1,
-      "question": "What level of harm is required for a charge under s.39 Criminal Justice Act 1988?",
-      "answer": "No injury is necessary; fear alone suffices",
-      "reference": "Blackstone's, Crime 2025, 1.16.4 p.221",
-      "subtitle": "CJA 1988 scope",
-      "tags": ["CJA 1988", "non-fatal"]
-    },
-    {
-      "id": 3,
-      "subtopic_id": 1,
-      "question": "Which defence can lawfully justify the use of force in a common assault scenario?",
-      "answer": "Self-defence if force is reasonable and necessary",
-      "reference": "Blackstone's, Crime 2025, 1.18.1 p.227",
-      "subtitle": "Lawful force",
-      "tags": ["defences", "self-defence"]
-    },
-    {
-      "id": 4,
-      "subtopic_id": 2,
-      "question": "Under s.47 Offences Against the Person Act 1861, what additional element elevates assault to ABH?",
-      "answer": "Occasioning actual bodily harm",
-      "reference": "Blackstone's, Crime 2025, 1.19.5 p.234",
-      "subtitle": "ABH elements",
-      "tags": ["ABH", "OAPA"],
-      "explanation": "ABH requires proof that the assault occasioned injuries more than trivial but not necessarily permanent."
-    },
-    {
-      "id": 5,
-      "subtopic_id": 2,
-      "question": "For s.20 OAPA 1861, what mens rea must the prosecution prove?",
-      "answer": "Intention or recklessness as to inflicting some harm",
-      "reference": "Blackstone's, Crime 2025, 1.19.9 p.236",
-      "subtitle": "Wounding mens rea",
-      "tags": ["OAPA", "mens rea"]
-    },
-    {
-      "id": 6,
-      "subtopic_id": 2,
-      "question": "Which injury best illustrates 'grievous bodily harm' for s.18 OAPA?",
-      "answer": "Serious injury causing long-term impairment",
-      "reference": "Blackstone's, Crime 2025, 1.19.11 p.237",
-      "subtitle": "GBH threshold",
-      "tags": ["GBH", "serious harm"]
-    },
-    {
-      "id": 7,
-      "subtopic_id": 3,
-      "question": "What is the definition of 'appropriation' under s.3 Theft Act 1968?",
-      "answer": "Any assumption of the rights of the owner",
-      "reference": "Blackstone's, Crime 2025, 2.4.2 p.311",
-      "subtitle": "Appropriation defined",
-      "tags": ["theft act", "appropriation"],
-      "explanation": "Assuming any of the owner's rights is sufficient; no need for all rights to be taken."
-    },
-    {
-      "id": 8,
-      "subtopic_id": 3,
-      "question": "For theft, which combination completes the actus reus?",
-      "answer": "Appropriation of property belonging to another",
-      "reference": "Blackstone's, Crime 2025, 2.4.5 p.313",
-      "subtitle": "Actus reus trio",
-      "tags": ["property", "actus reus"]
-    },
-    {
-      "id": 9,
-      "subtopic_id": 4,
-      "question": "Handling stolen goods requires the defendant to know or believe what?",
-      "answer": "The goods are stolen at the time of handling",
-      "reference": "Blackstone's, Crime 2025, 2.12.3 p.341",
-      "subtitle": "Mental element",
-      "tags": ["handling", "mens rea"]
-    },
-    {
-      "id": 10,
-      "subtopic_id": 4,
-      "question": "Under the Fraud Act 2006, dishonesty is assessed using which test?",
-      "answer": "The Ivey objective standards of ordinary decent people",
-      "reference": "Blackstone's, Crime 2025, 2.18.1 p.365",
-      "subtitle": "Dishonesty test",
-      "tags": ["fraud", "dishonesty"]
-    },
-    {
-      "id": 11,
-      "subtopic_id": 5,
-      "question": "What is required for the mens rea of simple criminal damage?",
-      "answer": "Intention or recklessness as to damaging property",
-      "reference": "Blackstone's, Crime 2025, 3.2.4 p.401",
-      "subtitle": "Mens rea focus",
-      "tags": ["criminal damage", "mens rea"]
-    },
-    {
-      "id": 12,
-      "subtopic_id": 5,
-      "question": "A defendant breaks a window to rescue a child from fire. Which defence is most relevant?",
-      "answer": "Lawful excuse under s.5(2)(b) Criminal Damage Act",
-      "reference": "Blackstone's, Crime 2025, 3.3.2 p.407",
-      "subtitle": "Lawful excuse",
-      "tags": ["defences", "necessity"]
-    },
-    {
-      "id": 13,
-      "subtopic_id": 6,
-      "question": "Aggravated criminal damage under s.1(2) CDA requires proof of what additional element?",
-      "answer": "Intention or recklessness as to endangering life",
-      "reference": "Blackstone's, Crime 2025, 3.4.1 p.413",
-      "subtitle": "Endangering life",
-      "tags": ["aggravated", "endanger life"],
-      "explanation": "The prosecution must show the defendant intended or was reckless about life being endangered by the damage."
-    },
-    {
-      "id": 14,
-      "subtopic_id": 6,
-      "question": "Which property type can be the subject of criminal damage?",
-      "answer": "Tangible property including land and buildings",
-      "reference": "Blackstone's, Crime 2025, 3.2.1 p.399",
-      "subtitle": "Property scope",
-      "tags": ["property", "CDA"]
-main
+      "tags": [
+        "road policing",
+        "drink driving"
+      ],
+      "topic_id": 46
     }
   ]
 }

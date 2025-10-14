@@ -25,7 +25,7 @@ No build step is required. Clone or download the repository and open `index.html
 - The preview counts and home overview update automatically when data changes.
 
 ## Notes
-- All references cite Blackstone's 2025 content, published by Wildy & Sons.
+- All references cite Blackstone's 2025 content
 - Feel free to adapt the styling in `styles.css` to suit your branding while preserving accessible colour contrast.
 # SGT Revision Briefings
 
